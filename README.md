@@ -59,7 +59,7 @@ source ~/.bashrc
 
 - `gem install bundler`
 
-# Criando script (framework CAPYBARA)
+# Criando script
   - Crie o arquivo Gemfile
     ```
     source 'https://rubygems.org'
@@ -88,3 +88,27 @@ source ~/.bashrc
         config.default_driver = :selenium_chrome
     end
     ```
+- Dentro da pasta spec crie o arquivo `visitando_um_site_spec.rb`
+     ```
+    describe 'Visitando um site' do
+    
+        it 'acessando o site' do
+    
+            visit 'https://www.uol.com.br'
+            puts page.title #titulo_da_página
+        end
+    end
+     ```
+- Execute o script:
+    `rspec -fd`
+
+- Resultado:
+    ![image](https://user-images.githubusercontent.com/23202661/71630788-b99f0b00-2be3-11ea-91ac-cff8323dfebc.png)
+
+# Verificando se o titulo da página corresponde ao resultado esperado
+
+`expect(page.title).to eql 'UOL - O melhor conteúdo'`
+
+
+![image](https://user-images.githubusercontent.com/23202661/71630911-74c7a400-2be4-11ea-8968-cab2388a76f4.png)
+
