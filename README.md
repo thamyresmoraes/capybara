@@ -10,14 +10,14 @@
 2. Faça o download da última versão do Chromedriver (MAC ou Linux). (para saber a ultima versão acesse https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
 Faça a descompactação do chromedriver_linux64.zip
 3. Acesse a pasta Downloads pelo terminal
-4. Agora basta mover para o PATH executando o comando: sudo mv chromedriver /usr/local/bin
+4. Agora basta mover para o PATH executando o comando: `sudo mv chromedriver /usr/local/bin`
 
 # Instalando o Geckodriver:
 1. Acesse a URL: https://github.com/mozilla/geckodriver/releases
 2. Faça o download da última versão do Gekodriver (MAC ou Linux)
 3. Faça a descompactação do geckodriver-v0.XX.0-linux64.tar.gz
 4. Acesse a pasta Downloads pelo terminal
-5. Agora basta mover para o PATH executando o comando: sudo mv geckodriver /usr/local/bin
+5. Agora basta mover para o PATH executando o comando: `sudo mv geckodriver /usr/local/bin`
 
 # Instalando o Ruby:
 Dependências
@@ -57,6 +57,17 @@ source ~/.bashrc
 
 # Instalando bundler
 
-- gem install bundler
+- `gem install bundler`
+
+# Criando script (framework CAPYBARA)
+  - Crie o arquivo Gemfile
+    ```
+    source 'https://rubygems.org'
+
+    gem 'capybara'
+    gem 'selenium-webdriver'
+    gem 'rspec'
+    ```
+- Instale as gems executando o comando `bundle install` 
 
 
