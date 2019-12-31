@@ -114,5 +114,8 @@ source ~/.bashrc
 # Congelando gems
     - gem "capybara", "3.30.0"
 
-# Atualizando gems
+# Atualizando gem
     - bundle update
+
+# Executando o teste no firefox
+ - No arquivo `spec_helper.rb` substitua `config.default_driver = :selenium_chrome` para o navegador default(firefox) `config.default_driver = :selenium`
