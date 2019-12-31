@@ -69,5 +69,22 @@ source ~/.bashrc
     gem 'rspec'
     ```
 - Instale as gems executando o comando `bundle install` 
+- Excute o comando `rspec --init` para inicializar um projeto o rspec
 
+# Integrar rspec com o capybara
+ - No topo do arquivo spec_helper.rb importe:
+    ```
+    require 'capybara'
+    require  'capybara/rspec'
+    ```
+- E no final do arquivo chame o método config:
+     ```
+     config.include Capybara::DSL
+     ```
 
+- Configure o driver do capybara:
+    ```
+    Capybara.configure do |config|
+        config.default_driver = :selenium_chrome
+    end
+    ```
