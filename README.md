@@ -112,10 +112,15 @@ source ~/.bashrc
 ![image](https://user-images.githubusercontent.com/23202661/71630911-74c7a400-2be4-11ea-8968-cab2388a76f4.png)
 
 # Congelando gems
-    - gem "capybara", "3.30.0"
+    gem "capybara", "3.30.0"
 
 # Atualizando gem
-    - bundle update
+    `bundle update`
 
 # Executando o teste no firefox
- - No arquivo `spec_helper.rb` substitua `config.default_driver = :selenium_chrome` para o navegador default(firefox) `config.default_driver = :selenium`
+    - No arquivo `spec_helper.rb` substitua `config.default_driver = :selenium_chrome` para o navegador default(firefox) `config.default_driver = :selenium`
+
+# Testes
+
+    - [FORMS](https://github.com/thamyresmoraes/capybara/blob/master/spec/forms_spec.rb)
+    - [NOTIFICAÇÕES](https://github.com/thamyresmoraes/capybara/blob/master/spec/validando_notificações_spec.rb)
