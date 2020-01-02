@@ -123,8 +123,11 @@ source ~/.bashrc
 # Executando cenário com tag
 `rspec --tag @combo_box`
 
+# Incluindo before e after
+![image](https://user-images.githubusercontent.com/23202661/71681920-d0249e00-2d6c-11ea-82af-63e8e0db9eb4.png)
 # Testes
 
 - [FORMS](https://github.com/thamyresmoraes/capybara/blob/master/spec/forms_spec.rb)
 - [NOTIFICAÇÕES](https://github.com/thamyresmoraes/capybara/blob/master/spec/validando_notificações_spec.rb)
 - [COMBO BOX](https://github.com/thamyresmoraes/capybara/blob/master/spec/combo_box_spec.rb)
+- [CHECK BOX](https://github.com/thamyresmoraes/capybara/blob/master/spec/check_box_spec.rb)
