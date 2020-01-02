@@ -131,3 +131,4 @@ source ~/.bashrc
 - [NOTIFICAÇÕES](https://github.com/thamyresmoraes/capybara/blob/master/spec/validando_notificações_spec.rb)
 - [COMBO BOX](https://github.com/thamyresmoraes/capybara/blob/master/spec/combo_box_spec.rb)
 - [CHECK BOX](https://github.com/thamyresmoraes/capybara/blob/master/spec/check_box_spec.rb)
+- [RADIO BUTTON]((https://github.com/thamyresmoraes/capybara/blob/master/spec/radio_button_spec.rb))
