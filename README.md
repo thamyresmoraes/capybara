@@ -143,3 +143,4 @@ Por default, o Capybara aguarda 2 segundos até que o elemento seja exibido na t
 - [RADIO BUTTON](https://github.com/thamyresmoraes/capybara/blob/master/spec/radio_button_spec.rb)
 - [UPLOAD DE ARQUIVOS](https://github.com/thamyresmoraes/capybara/blob/master/spec/upload_spec.rb)
 - [DYNAMIC CONTROLS](https://github.com/thamyresmoraes/capybara/blob/master/spec/dynamic_controls.rb)
+- [MOUSE HOVER](https://github.com/thamyresmoraes/capybara/blob/master/spec/mouse_hover_spec.rb)
