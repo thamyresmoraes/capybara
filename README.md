@@ -126,6 +126,14 @@ source ~/.bashrc
 # Incluindo before e after
 ![image](https://user-images.githubusercontent.com/23202661/71681920-d0249e00-2d6c-11ea-82af-63e8e0db9eb4.png)
 
+# Adeus sleep!!!
+    Por default, o Capybara aguarda 2 segundos até que o elemento seja exibido na tela, mas alguns cenários exigem mais que 2 segundos, tornando comum a inserção do `sleep` no código. Mas podemos melhorar isso alterando a variável `default_max_wait_time` para o tempo exigido na validação de nossos testes.
+
+- Vá até o arquivo `spec_helper.rb` e adicione a variavel `default_max_wait_time`: 
+
+![image](https://user-images.githubusercontent.com/23202661/71686472-09173f80-2d7a-11ea-96d3-49d6ff4e0a22.png)
+
+
 # Testes
 
 - [FORMS](https://github.com/thamyresmoraes/capybara/blob/master/spec/forms_spec.rb)
@@ -133,4 +141,4 @@ source ~/.bashrc
 - [COMBO BOX](https://github.com/thamyresmoraes/capybara/blob/master/spec/combo_box_spec.rb)
 - [CHECK BOX](https://github.com/thamyresmoraes/capybara/blob/master/spec/check_box_spec.rb)
 - [RADIO BUTTON](https://github.com/thamyresmoraes/capybara/blob/master/spec/radio_button_spec.rb)
-- [Upload de arquivos](https://github.com/thamyresmoraes/capybara/blob/master/spec/upload_spec.rb)
+- [UPLOAD DE ARQUIVOS](https://github.com/thamyresmoraes/capybara/blob/master/spec/upload_spec.rb)
