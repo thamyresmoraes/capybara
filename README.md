@@ -133,6 +133,20 @@ Por default, o Capybara aguarda 2 segundos até que o elemento seja exibido na t
 
 ![image](https://user-images.githubusercontent.com/23202661/71686472-09173f80-2d7a-11ea-96d3-49d6ff4e0a22.png)
 
+# Regex
+
+- Começa com o valor, exemplo:
+    
+   ``` 'img[alt^=Pantera]' ```
+
+- Termina com o valor, exemplo:
+
+    ```'img[alt$=Aranha]```
+
+- Contém com o valor, exemplo:
+
+    ```'img[alt*=Aranha]```
+
 
 # Testes
 

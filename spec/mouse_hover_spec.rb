@@ -2,7 +2,6 @@ describe 'Mouse Hover', :mouse_hover do
 
     before(:each) do
         visit 'https://training-wheels-protocol.herokuapp.com/hovers'
-
     end
     
     it 'quando passo o mouse sobre o blade' do
@@ -20,12 +19,13 @@ describe 'Mouse Hover', :mouse_hover do
         expect(page).to have_content 'Nome: Pantera Negra'
      end
     
-     it 'quando passo o mouse sobre o pantera negra' do
+     it 'quando passo o mouse sobre o homem aranha' do
         card_blade = find('img[alt="Homem Aranha"]')
         card_blade.hover
  
         expect(page).to have_content 'Nome: Homem Aranha'
      end
+
     after(:each) do
         sleep 0.5
     end
