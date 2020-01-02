@@ -159,3 +159,4 @@ Por default, o Capybara aguarda 2 segundos até que o elemento seja exibido na t
 - [DYNAMIC CONTROLS](https://github.com/thamyresmoraes/capybara/blob/master/spec/dynamic_controls.rb)
 - [MOUSE HOVER](https://github.com/thamyresmoraes/capybara/blob/master/spec/mouse_hover_spec.rb)
 - [DRAG AND DROP](https://github.com/thamyresmoraes/capybara/blob/master/spec/drag_drop_spec.rb)
+- [SELECT 2](https://github.com/thamyresmoraes/capybara/blob/master/spec/select2_spec.rb)
