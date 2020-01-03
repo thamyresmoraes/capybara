@@ -24,7 +24,7 @@ describe 'Multiple Windows', :multiple_windows do
         end
 
         nova_janela.close
-        expect(nova_janela.closed?)to. be true
+        expect(nova_janela.closed?).to be true
         
         sleep 3
     end
