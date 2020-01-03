@@ -167,3 +167,4 @@ Por default, o Capybara aguarda 2 segundos até que o elemento seja exibido na t
 - [AMBIGUOUS MATCH (ESCOPO) - RESOLVIDO!](https://github.com/thamyresmoraes/capybara/blob/master/spec/ambiguous_math_escopo_spec.rb)
 - [IFRAME](https://github.com/thamyresmoraes/capybara/blob/master/spec/iframe_spec.rb)
 - [IDs DINÂMICOS](https://github.com/thamyresmoraes/capybara/blob/master/spec/ids_dinamicos_spec.rb)
+- [TABELAS](https://github.com/thamyresmoraes/capybara/blob/master/spec/tabelas_spec.rb)
