@@ -155,9 +155,21 @@ No `spec_helper.rb` inclua a variavel `config.app_host`
 
 # Redimesionando Janela do Navegador
 
-No `spec_helper.rb` o before
+No `spec_helper.rb` acrescente o before
 
 ![image](https://user-images.githubusercontent.com/23202661/71751090-338bfa00-2e59-11ea-99e3-001b1601064a.png)
+
+# Screenshot
+No `spec_helper.rb` acrescente o after
+
+- Tirando screenshot de todos os cenários executados:
+
+![image](https://user-images.githubusercontent.com/23202661/71753544-a6996e80-2e61-11ea-9187-8a49074ccb84.png)
+
+- Tirando screenshot apenas dos cenários executados que resultaram em falha
+
+
+![image](https://user-images.githubusercontent.com/23202661/71753638-ee1ffa80-2e61-11ea-874d-2e8d0d18bd9d.png)
 
 
 # Testes

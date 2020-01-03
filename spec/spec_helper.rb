@@ -20,12 +20,16 @@ RSpec.configure do |config|
     page.current_window.resize_to(1280, 800)
   end
 
-  
+  config.after(:example) do |e|
+    nome = e.description.gsub(/[^A-Za-z0-9 ]/, '').tr(' ', '_')
+    page.save_screenshot('log/' + nome + '.png') if e.exception
+  end
+
 end
 
 Capybara.configure do |config|
   config.default_driver = :selenium_chrome
-  config.default_max_wait_time = 10
+  config.default_max_wait_time = 15
   config.app_host = 'https://training-wheels-protocol.herokuapp.com'
 
 end   
