@@ -164,5 +164,6 @@ Por default, o Capybara aguarda 2 segundos até que o elemento seja exibido na t
 - [JAVASCRIPT - ALERTS](https://github.com/thamyresmoraes/capybara/blob/master/spec/alerts_javascript_spec.rb)
 - [MULTIPLE WINDOWS](https://github.com/thamyresmoraes/capybara/blob/master/spec/multiple_windows_spec.rb)
 - [CAMPO RANDÔMICOS](https://github.com/thamyresmoraes/capybara/blob/master/spec/campos_randomicos_spec.rb)
-- [AMBIGUOUS MATCH (ESCOPO) - RESOLVIDO!](https://github.com/thamyresmoraes/capybara/blob/master/spec/ambiguous_math_spec.rb)
+- [AMBIGUOUS MATCH (ESCOPO) - RESOLVIDO!](https://github.com/thamyresmoraes/capybara/blob/master/spec/ambiguous_math_escopo_spec.rb)
 - [IFRAME](https://github.com/thamyresmoraes/capybara/blob/master/spec/iframe_spec.rb)
+- [IDs DINÂMICOS](https://github.com/thamyresmoraes/capybara/blob/master/spec/ids_dinamicos_spec.rb)
