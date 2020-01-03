@@ -172,6 +172,9 @@ No `spec_helper.rb` acrescente o after
 ![image](https://user-images.githubusercontent.com/23202661/71753638-ee1ffa80-2e61-11ea-874d-2e8d0d18bd9d.png)
 
 
+# Executar em headless
+`config.default_driver = :selenium_chrome_headless`
+
 # Testes
 
 - [FORMS](https://github.com/thamyresmoraes/capybara/blob/master/spec/forms_spec.rb)
