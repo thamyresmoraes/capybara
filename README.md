@@ -153,6 +153,13 @@ No `spec_helper.rb` inclua a variavel `config.app_host`
 
 ![image](https://user-images.githubusercontent.com/23202661/71749991-ce82d500-2e55-11ea-97cb-032d5d37f8ab.png)
 
+# Redimesionando Janela do Navegador
+
+No `spec_helper.rb` o before
+
+![image](https://user-images.githubusercontent.com/23202661/71751090-338bfa00-2e59-11ea-99e3-001b1601064a.png)
+
+
 # Testes
 
 - [FORMS](https://github.com/thamyresmoraes/capybara/blob/master/spec/forms_spec.rb)
