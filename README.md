@@ -161,3 +161,4 @@ Por default, o Capybara aguarda 2 segundos até que o elemento seja exibido na t
 - [DRAG AND DROP](https://github.com/thamyresmoraes/capybara/blob/master/spec/drag_drop_spec.rb)
 - [SELECT 2](https://github.com/thamyresmoraes/capybara/blob/master/spec/select2_spec.rb)
 - [KEY PRESSES - TECLADO](https://github.com/thamyresmoraes/capybara/blob/master/spec/key_presses_teclado_spec.rb)
+- [JAVASCRIPT - ALERTS](https://github.com/thamyresmoraes/capybara/blob/master/spec/alerts_javascript_spec.rb)
