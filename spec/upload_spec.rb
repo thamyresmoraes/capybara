@@ -1,7 +1,7 @@
 describe 'Upload', :upload do
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/upload'
+        visit '/upload'
         @arquivo = Dir.pwd + '/spec/fixtures/texto.txt'
         @imagem = Dir.pwd + '/spec/fixtures/imagem.jpg'
 

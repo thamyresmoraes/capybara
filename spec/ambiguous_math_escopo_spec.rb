@@ -1,6 +1,6 @@
 describe 'Escopo - Ambiguous Math', :login_escopo do
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/access' 
+        visit '/access' 
     end
 
     it 'login', :login_1 do

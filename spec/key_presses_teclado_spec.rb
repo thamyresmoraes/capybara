@@ -1,7 +1,7 @@
 describe 'Key Presses - Teclado', :key_presses do
     
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/key_presses'
+        visit '/key_presses'
     end
 
     it 'enviando teclas', :simbolos do

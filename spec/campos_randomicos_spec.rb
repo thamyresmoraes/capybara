@@ -1,7 +1,7 @@
 describe 'Campos randômicos' do
 
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/login2'
+        visit '/login2'
     end
 
     it 'form - com data de nascimento', :randomico_data_de_nascimento do

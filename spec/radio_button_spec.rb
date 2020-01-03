@@ -1,6 +1,6 @@
 describe 'Radio Buttons', :radio_button do
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/radios'
+        visit '/radios'
     end
 
     it 'selecionando por ID' do

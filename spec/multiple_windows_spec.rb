@@ -1,6 +1,6 @@
 describe 'Multiple Windows', :multiple_windows do
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/windows'
+        visit '/windows'
    
     end
 
