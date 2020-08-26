@@ -5,6 +5,8 @@
  - Ruby
  - Bundler
 
+***
+
 # Instalando o Chrome drive no linux:
 1. Acesse a URL: https://chromedriver.storage.googleapis.com/index.html
 2. Faça o download da última versão do Chromedriver (MAC ou Linux). (para saber a ultima versão acesse https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
